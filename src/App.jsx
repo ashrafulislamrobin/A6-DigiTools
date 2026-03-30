@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 
 function App() {
   const [products, setProducts] = useState([]);
+  const [cart, setCart] = useState([]);
 
   useEffect(() => {
     fetch('/data.json')
@@ -18,6 +19,28 @@ function App() {
       .then((data) => setProducts(data));
   }, []);
 
+  const addToCart = (product) => {
+    const exists = cart.find((item) => item.id === product.id);
+    if (exists) {
+      toast.warning(product.name + ' is already in the cart!');
+      return;
+    }
+    setCart([...cart, product]);
+    toast.success(product.name + ' added to cart!');
+  };
+
+  const removeFromCart = (productId) => {
+    const item = cart.find((item) => item.id === productId);
+    setCart(cart.filter((item) => item.id !== productId));
+    if (item) {
+      toast.info(item.name + ' removed from cart!');
+    }
+  };
+
+  const clearCart = () => {
+    setCart([]);
+    toast.success('Checkout successful! Cart cleared.');
+  };
 
   return (
     <div className="min-h-screen bg-white">
@@ -25,7 +48,11 @@ function App() {
       <Banner />
       <Stats />
       <ProductSection
-
+        products={products}
+        cart={cart}
+        onAddToCart={addToCart}
+        onRemoveFromCart={removeFromCart}
+        onClearCart={clearCart}
       />
       <Steps />
       <Pricing />
