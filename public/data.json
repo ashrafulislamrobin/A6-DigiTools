@@ -118,5 +118,16 @@
       "Executive summaries"
     ],
     "icon": "operation.png"
+  },
+  {
+    "id": 4,
+    "name": "Portfolio Builder",
+    "description": "Showcase your work with stunning, customizable portfolio templates.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Drag-and-drop editor", "Custom domains", "SEO optimization"],
+    "icon": "portfolio.png"
   }
 ]
