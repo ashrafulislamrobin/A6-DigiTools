@@ -1,90 +1,122 @@
 [
   {
     "id": 1,
-    "name": "Resume Builder Pro",
-    "description": "Create professional resumes with AI-powered suggestions and modern templates.",
-    "price": 19,
+    "name": "CloudSync Architect",
+    "description": "Seamlessly synchronize your infrastructure across multi-cloud environments with real-time mirroring.",
+    "price": 45,
     "period": "monthly",
     "tag": "popular",
     "tagType": "popular",
-    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "features": [
+      "Multi-cloud support",
+      "Zero-latency sync",
+      "End-to-end encryption"
+    ],
     "icon": "writing_2327400 1.png"
   },
   {
     "id": 2,
-    "name": "Social Media Scheduler",
-    "description": "Plan, schedule, and automate posts across multiple social platforms.",
-    "price": 29,
+    "name": "Neural Network Hub",
+    "description": "Deploy and manage custom machine learning models with a simplified low-code interface.",
+    "price": 89,
     "period": "monthly",
     "tag": "best seller",
     "tagType": "best seller",
-    "features": ["Multi-platform posting", "Analytics dashboard", "Auto scheduling"],
+    "features": [
+      "Model versioning",
+      "API endpoint hosting",
+      "Training automation"
+    ],
     "icon": "social-media.png"
   },
   {
     "id": 3,
-    "name": "E-commerce Starter Kit",
-    "description": "Launch your online store with essential tools and integrations.",
-    "price": 99,
+    "name": "CyberShield Core",
+    "description": "Enterprise-grade threat detection and automated response for small to mid-sized networks.",
+    "price": 299,
     "period": "one-time",
     "tag": "new",
     "tagType": "new",
-    "features": ["Payment gateway integration", "Inventory tracking", "Mobile-friendly design"],
+    "features": [
+      "Intrusion prevention",
+      "Vulnerability scanning",
+      "24/7 incident logs"
+    ],
     "icon": "shopping-cart.png"
   },
   {
     "id": 4,
-    "name": "Portfolio Builder",
-    "description": "Showcase your work with stunning, customizable portfolio templates.",
-    "price": 12,
+    "name": "DevOps Pipeline Pro",
+    "description": "Accelerate your shipping speed with automated CI/CD workflows and container orchestration.",
+    "price": 35,
     "period": "monthly",
     "tag": "popular",
     "tagType": "popular",
-    "features": ["Drag-and-drop editor", "Custom domains", "SEO optimization"],
+    "features": [
+      "GitHub/GitLab integration",
+      "Docker optimization",
+      "Auto-scaling triggers"
+    ],
     "icon": "portfolio.png"
   },
   {
     "id": 5,
-    "name": "Design Toolkit",
-    "description": "Access premium design assets, icons, and UI kits for your projects.",
-    "price": 59,
+    "name": "UX Research Lab",
+    "description": "Gather deep user insights with heatmaps, session recordings, and automated survey triggers.",
+    "price": 150,
     "period": "yearly",
     "tag": "best seller",
     "tagType": "best seller",
-    "features": ["5000+ assets", "UI kits", "Commercial license"],
+    "features": [
+      "Behavioral heatmaps",
+      "A/B testing engine",
+      "Participant recruiting"
+    ],
     "icon": "design-tool.png"
   },
   {
     "id": 6,
-    "name": "Operations Manager",
-    "description": "Streamline workflows and manage business operations efficiently.",
-    "price": 39,
+    "name": "Quantum Ledger",
+    "description": "High-speed distributed ledger technology for transparent and immutable asset tracking.",
+    "price": 55,
     "period": "monthly",
     "tag": "popular",
     "tagType": "popular",
-    "features": ["Task automation", "Team collaboration", "Reporting tools"],
+    "features": [
+      "Smart contract audits",
+      "Private node hosting",
+      "Audit-ready reporting"
+    ],
     "icon": "operation.png"
   },
   {
     "id": 7,
-    "name": "Content Writing Assistant",
-    "description": "Generate high-quality content for blogs, ads, and emails using AI.",
-    "price": 25,
+    "name": "Voice AI Synthesizer",
+    "description": "Convert text to hyper-realistic human speech in over 40 languages for apps and videos.",
+    "price": 15,
     "period": "monthly",
     "tag": "new",
     "tagType": "new",
-    "features": ["AI content generation", "Grammar correction", "SEO suggestions"],
+    "features": [
+      "Emotional tone control",
+      "Custom voice cloning",
+      "MP3/WAV export"
+    ],
     "icon": "writing_2327400 1.png"
   },
   {
     "id": 8,
-    "name": "Advanced Analytics Suite",
-    "description": "Gain deep insights into your business performance with powerful analytics.",
-    "price": 120,
+    "name": "Predictive Ops BI",
+    "description": "Forecasting software that uses historical data to predict future market trends and inventory needs.",
+    "price": 499,
     "period": "yearly",
     "tag": "best seller",
     "tagType": "best seller",
-    "features": ["Real-time analytics", "Custom reports", "Data visualization"],
+    "features": [
+      "Anomaly detection",
+      "Market trend analysis",
+      "Executive summaries"
+    ],
     "icon": "operation.png"
   }
 ]
