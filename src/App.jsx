@@ -6,6 +6,8 @@ import Banner from './components/Banner';
 import Stats from './components/Stats';
 
 import Steps from './components/Steps';
+import Pricing from './components/Pricing';
+
 
 function App() {
 
@@ -14,11 +16,16 @@ function App() {
       <Navbar cartCount={cart.length} />
       <Banner />
       <Stats />
-     
+      <ProductSection
+        products={products}
+        cart={cart}
+        onAddToCart={addToCart}
+        onRemoveFromCart={removeFromCart}
+        onClearCart={clearCart}
+      />
       <Steps />
-     
-      
-    </div>
+      <Pricing />
+   </div>
   );
 }
 
