@@ -16,16 +16,11 @@ function App() {
       <Navbar cartCount={cart.length} />
       <Banner />
       <Stats />
-      <ProductSection
-        products={products}
-        cart={cart}
-        onAddToCart={addToCart}
-        onRemoveFromCart={removeFromCart}
-        onClearCart={clearCart}
-      />
+     
       <Steps />
       <Pricing />
-   </div>
+   <ToastContainer position="top-right" autoClose={2000} />
+    </div>
   );
 }
 
